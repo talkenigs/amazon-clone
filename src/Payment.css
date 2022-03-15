@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@talkenigs 
-CleverProgrammers
-/
-react-challenge-amazon-clone
-Public
-Code
-Issues
-21
-Pull requests
-9
-Actions
-Projects
-Wiki
-Security
-Insights
-react-challenge-amazon-clone/src/Payment.css
-
-Rafeh Qazi day 3 build
-Latest commit d1137a2 on Sep 11, 2020
- History
- 0 contributors
-51 lines (42 sloc)  888 Bytes
-   
 .payment {
     background-color: white;
 }
@@ -78,4 +48,9 @@ Latest commit d1137a2 on Sep 11, 2020
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+  }
+
+  .payment__paypal {
+    position: relative;
+    margin-top: 20px;
   }

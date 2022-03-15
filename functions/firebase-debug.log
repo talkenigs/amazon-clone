@@ -1,0 +1,491 @@
+[debug] [2022-03-12T10:30:38.266Z] ----------------------------------------------------------------------
+[debug] [2022-03-12T10:30:38.268Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-03-12T10:30:38.268Z] CLI Version:   10.2.2
+[debug] [2022-03-12T10:30:38.268Z] Platform:      win32
+[debug] [2022-03-12T10:30:38.268Z] Node Version:  v14.17.1
+[debug] [2022-03-12T10:30:38.269Z] Time:          Sat Mar 12 2022 12:30:38 GMT+0200 (Israel Standard Time)
+[debug] [2022-03-12T10:30:38.269Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-12T10:30:38.328Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-12T10:30:38.328Z] > authorizing via signed-in user (talkenigs@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-03-12T10:30:38.371Z] [hub] writing locator at C:\Users\Tal\AppData\Local\Temp\hub-clone-32628.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[warn] !  Your requested "node" version "16" doesn't match your global version "14". Using node@14 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"14\". Using node@14 from host."}}
+[debug] [2022-03-12T10:30:38.390Z] defaultcredentials: writing to file C:\Users\Tal\AppData\Roaming\firebase\talkenigs_gmail_com_application_default_credentials.json
+[debug] [2022-03-12T10:30:38.392Z] Setting GAC to C:\Users\Tal\AppData\Roaming\firebase\talkenigs_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Tal\\AppData\\Roaming\\firebase\\talkenigs_gmail_com_application_default_credentials.json"}}
+[debug] [2022-03-12T10:30:38.395Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-32628/adminSdkConfig [none]
+[debug] [2022-03-12T10:30:38.886Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-32628/adminSdkConfig 200
+[debug] [2022-03-12T10:30:38.886Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-32628/adminSdkConfig {"projectId":"clone-32628","storageBucket":"clone-32628.appspot.com"}
+[debug] [2022-03-12T10:30:38.899Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-32628/sites 
+[debug] [2022-03-12T10:30:39.900Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-32628/sites 200
+[debug] [2022-03-12T10:30:39.901Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-32628/sites {"sites":[{"name":"projects/339211187378/sites/clone-32628","defaultUrl":"https://clone-32628.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-12T10:30:39.901Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-32628/webApps/-/config [none]
+[debug] [2022-03-12T10:30:40.704Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-32628/webApps/-/config 200
+[debug] [2022-03-12T10:30:40.704Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-32628/webApps/-/config {"projectId":"clone-32628","appId":"1:339211187378:web:f9167445d4e8b212ea45ab","storageBucket":"clone-32628.appspot.com","apiKey":"AIzaSyDOEZCbYKKT_a1Z5uONAkfD21yLW8jPx-8","authDomain":"clone-32628.firebaseapp.com","messagingSenderId":"339211187378","measurementId":"G-B312XLK6FY"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-03-12T10:30:40.741Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-03-12T10:30:40.741Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-03-12T10:30:40.741Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Tal\\.cache\\firebase\\emulators\\ui-v1.6.5\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Tal\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.5\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-03-12T10:30:40.868Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2022-03-12T10:30:41.027Z] Validating nodejs source
+[debug] [2022-03-12T10:30:43.491Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:30:43.491Z] Building nodejs source
+[debug] [2022-03-12T10:30:43.491Z] Analyzing nodejs backend spec
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/clone-32628/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/clone-32628/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-03-12T10:50:40.382Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:50:41.392Z] Validating nodejs source
+[debug] [2022-03-12T10:50:44.805Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:50:44.805Z] Building nodejs source
+[debug] [2022-03-12T10:50:44.805Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T10:50:53.416Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:50:54.428Z] Validating nodejs source
+[debug] [2022-03-12T10:50:57.107Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:50:57.108Z] Building nodejs source
+[debug] [2022-03-12T10:50:57.108Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T10:51:05.897Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:51:06.912Z] Validating nodejs source
+[debug] [2022-03-12T10:51:10.428Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:51:10.428Z] Building nodejs source
+[debug] [2022-03-12T10:51:10.428Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T10:51:10.436Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-03-12T10:51:10.436Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-03-12T10:51:10.436Z] Accepted request GET /clone-32628/us-central1/api --> us-central1-api
+[debug] [2022-03-12T10:51:10.448Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-03-12T10:51:10.449Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-03-12T10:51:10.449Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-03-12T10:51:10.449Z] [worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: Assigning socketPath: \\?\pipe\C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\10532 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\10532"}}
+[debug] [2022-03-12T10:51:10.450Z] [worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: BUSY"}}
+[debug] [2022-03-12T10:51:12.266Z] [runtime-status] [10532] Functions runtime initialized. {"cwd":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions","node_version":"14.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\",\"node_version\":\"14.17.1\"}"}}
+[debug] [2022-03-12T10:51:12.266Z] [runtime-status] [10532] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Disabled runtime features: undefined"}}
+[debug] [2022-03-12T10:51:12.269Z] [runtime-status] [10532] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-03-12T10:51:12.271Z] [runtime-status] [10532] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.18.1","resolution":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.18.1\",\"resolution\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-03-12T10:51:12.271Z] [runtime-status] [10532] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-03-12T10:51:12.272Z] [runtime-status] [10532] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.18.1","resolution":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.18.1\",\"resolution\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-03-12T10:51:12.326Z] [runtime-status] [10532] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-03-12T10:51:12.326Z] [runtime-status] [10532] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.18.1","resolution":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.18.1\",\"resolution\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-03-12T10:51:12.327Z] [runtime-status] [10532] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.18.1","resolution":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.18.1\",\"resolution\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-03-12T10:51:12.329Z] [runtime-status] [10532] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-03-12T10:51:12.329Z] [runtime-status] [10532] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.18.1","resolution":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.18.1\",\"resolution\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-03-12T10:51:12.330Z] [runtime-status] [10532] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.0.2","resolution":"C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"C:\\\\Users\\\\Tal\\\\Documents\\\\API_PROJ\\\\Client\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-03-12T10:51:12.484Z] [runtime-status] [10532] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-03-12T10:51:12.485Z] [runtime-status] [10532] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Running api in signature http"}}
+[debug] [2022-03-12T10:51:12.488Z] [runtime-status] [10532] Attempting to listen to socketPath: \\?\pipe\C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\10532 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\10532"}}
+[debug] [2022-03-12T10:51:12.497Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-03-12T10:51:12.499Z] [functions] Got req.url=/clone-32628/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-32628/us-central1/api, mapping to path=/"}}
+[debug] [2022-03-12T10:51:12.505Z] [runtime-status] [10532] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Ephemeral server handling GET request"}}
+[debug] [2022-03-12T10:51:12.513Z] [runtime-status] [10532] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10532] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-03-12T10:51:12.516Z] [worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: IDLE"}}
+[debug] [2022-03-12T10:51:12.517Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-03-12T10:51:12.659Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2022-03-12T10:54:52.566Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:54:53.568Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-03-12T10:54:53.569Z] [worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: FINISHING"}}
+[debug] [2022-03-12T10:54:53.574Z] Validating nodejs source
+[debug] [2022-03-12T10:54:58.843Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:54:58.844Z] Building nodejs source
+[debug] [2022-03-12T10:54:58.844Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T10:54:58.858Z] [worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: exited"}}
+[debug] [2022-03-12T10:54:58.858Z] [worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9b42d409-b363-43c5-a03e-647d3e5d0b7d]: FINISHED"}}
+[debug] [2022-03-12T10:55:42.557Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:55:43.574Z] Validating nodejs source
+[debug] [2022-03-12T10:55:47.562Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:55:47.563Z] Building nodejs source
+[debug] [2022-03-12T10:55:47.563Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T10:56:25.016Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:56:26.026Z] Validating nodejs source
+[debug] [2022-03-12T10:56:30.272Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:56:30.272Z] Building nodejs source
+[debug] [2022-03-12T10:56:30.273Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T10:56:34.605Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:56:35.616Z] Validating nodejs source
+[debug] [2022-03-12T10:56:39.843Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:56:39.844Z] Building nodejs source
+[debug] [2022-03-12T10:56:39.844Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T10:58:34.624Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:58:35.631Z] Validating nodejs source
+[debug] [2022-03-12T10:58:40.466Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:58:40.467Z] Building nodejs source
+[debug] [2022-03-12T10:58:40.467Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T10:58:59.554Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T10:59:00.559Z] Validating nodejs source
+[debug] [2022-03-12T10:59:04.676Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T10:59:04.676Z] Building nodejs source
+[debug] [2022-03-12T10:59:04.676Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T11:02:20.552Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T11:02:21.567Z] Validating nodejs source
+[debug] [2022-03-12T11:02:26.643Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T11:02:26.644Z] Building nodejs source
+[debug] [2022-03-12T11:02:26.644Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T11:03:12.761Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T11:03:13.771Z] Validating nodejs source
+[debug] [2022-03-12T11:03:17.613Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T11:03:17.613Z] Building nodejs source
+[debug] [2022-03-12T11:03:17.613Z] Analyzing nodejs backend spec
+[debug] [2022-03-12T11:03:17.622Z] File C:\Users\Tal\Documents\API_PROJ\Client\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tal\\Documents\\API_PROJ\\Client\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-03-12T11:03:18.636Z] Validating nodejs source
+[debug] [2022-03-12T11:03:22.194Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-12T11:03:22.195Z] Building nodejs source
+[debug] [2022-03-12T11:03:22.195Z] Analyzing nodejs backend spec

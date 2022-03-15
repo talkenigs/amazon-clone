@@ -8,6 +8,11 @@ import { BrowserRouter as Router, Routes , Route, Link } from "react-router-dom"
 import Login from './Login/Login';
 import { auth } from './firebase'
 import { useStateValue } from './StateProvider/StateProvider';
+import { loadStripe } from '@stripe/stripe-js';
+import { Elements } from '@stripe/react-stripe-js';
+import Orders from './Orders/Orders';
+
+const promise = loadStripe('apikey');
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -40,11 +45,13 @@ function App() {
 
         <Route path="/login" element={<Login />} />
 
+        <Route path="/orders" element={<Orders />} />
+
         <Route path="/" element={<><Header /><Home /></>} />
 
         <Route path="/checkout" element={<><Header /><Checkout /></>} />
 
-        <Route path="/payment" element={<><Header /><Payment /></>} />
+        <Route path="/payment" element={<><Header /><Elements stripe={promise}><Payment /></Elements></>} />
 
       </Routes>
     </Router>
