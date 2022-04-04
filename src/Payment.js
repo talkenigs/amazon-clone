@@ -80,20 +80,16 @@ function Payment() {
       };
 
     const onApprove = (data, actions) => {
-        // navigate("/orders");
+        navigate("/orders");
 
-        //         db
-        //         .collection("users")
-        //         .doc()
-        //         .collection('orders')
-        //         .doc(data)
-        //         .set({
-        //             basket: basket,
-        //             amount: data
-        //         })
-
-        console.log(data)
-        console.log(actions)
+                db
+                .collection("users")
+                .doc(user?.id)
+                .collection('orders')
+                .set({
+                    basket: basket,
+                    amount: data
+                })
 
         return () => {actions.order.capture()
             .then((orderData) => {           
